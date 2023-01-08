@@ -100,4 +100,16 @@ body {
   .copy-text {
     padding-bottom: 0;
   }
+
+  .blob {
+    height: 87.5%;
+  }
+
+  .blob-left {
+    transform: translateX(-30%);
+  }
+
+  .blob-right {
+    transform: translateX(30%);
+  }
 }
