@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/chat-app-css-illustration-mbitnDJCaD](https://www.frontendmentor.io/solutions/chat-app-css-illustration-mbitnDJCaD)
+- Live Site URL: [https://chat-app-css-illustration-kappa-nine.vercel.app](https://chat-app-css-illustration-kappa-nine.vercel.app/)
 
 ## My process
 
