@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CSS Illustration landing page">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/app.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | CSS App Illustration</title>
+</head>
+<body>
+  <main class="wrapper">
+    <div class="blob blob-left"></div>
+    <div class="blob blob-right"></div>
+
+    <div class="app">
+      <div class="app-inner">
+        <div class="header">
+          <div class="notch"></div>
+          <div class="header-content">
+            <svg width="4" height="10" class="chevron" viewBox="0 0 4 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 1L1 5L3 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <img class="header-photo" src="images/avatar.jpg" alt="avatar">
+            <div class="header-text">
+              <p class="name">Samuel Green</p>
+              <p class="status">Available to Walk</p>
+            </div>
+            <svg width="2" height="8" viewBox="0 0 2 8" class="header-menu" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H2V2H0V0Z" fill="currentColor"/><path d="M0 3H2V5H0V3Z" fill="currentColor"/><path d="M0 6H2V8H0V6Z" fill="currentColor"/></svg>
+          </div>
+        </div>
+        <div class="chat">
+          <div class="chat-left">
+            <div class="animation animation-1 chat-bubble chat-bubble-left">That sounds great. I'd be happy with that.</div>
+            <div class="animation animation-2 chat-bubble chat-bubble-left">Could you send over some pictures of your dog, please?</div>
+          </div>
+          <div class="chat-right">
+            <div class="animation animation-3 chat-photos">
+              <img class="photo" src="images/dog-image-1.jpg" alt="smiling dog">
+              <img class="photo" src="images/dog-image-2.jpg" alt="dog lying down">
+              <img class="photo" src="images/dog-image-3.jpg" alt="dog carrying a stick">
+            </div>
+            <div class="animation animation-4 chat-bubble chat-bubble-right">Here are a few pictures. She's a happy girl!</div>
+            <div class="animation animation-5 chat-bubble chat-bubble-right chat-bubble-short">Can you make it?</div>
+          </div>
+          <div class="chat-left">
+            <div class="animation animation-6 chat-bubble chat-bubble-left">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+            <div class="animation animation-7 chat-button">
+              <div class="circle"></div>
+              <p class="task">30 minute walk</p>
+              <p class="cost">$29</p>
+            </div>
+            <div class="animation animation-8 chat-button">
+              <div class="circle"></div>
+              <p class="task">1 hour walk</p>
+              <p class="cost">$49</p>
+            </div>
+          </div>
+          <div class="chat-input">
+            <p class="placeholder">Type a message...</p>
+            <div class="input-button">
+              <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 9L5 5L1 1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <h1 class="title">
+        Simple booking
+      </h1>
+      <p class="copy-text">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+      </p>
+    </div>
+  </main>
+</body>
+</html>

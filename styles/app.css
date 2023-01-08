@@ -1,0 +1,258 @@
+@keyframes newMessage {
+  0% {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translateY(-0.5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.app {
+  width: 245px;
+  height: 505px;
+  padding: 11px;
+  border-radius: 24px;
+  background: var(--secondary-white);
+  pointer-events: none;
+  box-shadow: 0 18px 36px var(--secondary-gradient);
+  margin-bottom: 64px;
+  flex-shrink: 0;
+}
+
+.app-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--app-bg);
+}
+
+
+/*******************************************
+    Header Styling
+*******************************************/
+
+
+.header {
+  width: 100%;
+  background: linear-gradient(to right, var(--bg-gradient-2), var(--bg-gradient-1));
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 4px 8px var(--secondary-gradient);
+}
+
+.notch {
+  width: 129px;
+  height: 18px;
+  margin: 0 auto;
+  background: var(--secondary-white);
+  border-radius: 0 0 12px 12px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+}
+
+.chevron {
+  position: relative;
+  width: 4px;
+  height: 14px;
+  color: var(--secondary-white);
+}
+
+.header-photo {
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--secondary-white);
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text > .name {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--secondary-white);
+}
+
+.header-text > .status {
+  font-size: 8px;
+  font-weight: 400;
+  color: var(--app-status);
+}
+
+.header-menu {
+  margin-left: auto;
+  color: var(--secondary-white);
+}
+
+.square {
+  width: 2px;
+  height: 2px;
+  background: var(--secondary-white);
+}
+
+/*********************************************
+    Chat Styling
+*********************************************/
+
+.chat {
+  padding: 11px 8px;
+}
+
+.chat-left, .chat-right {
+  margin-bottom: 16px;
+}
+
+.chat-left > div:not(:last-child),
+.chat-right > div:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.chat-bubble {
+  padding: 7px;
+  max-width: 128px;
+  font-size: 8px;
+}
+
+.chat-bubble-left {
+  background: var(--secondary-light);
+  border-radius: 8px 8px 8px 4px;
+  color: var(--text-chat-left);
+}
+
+.chat-bubble-right {
+  margin-left: auto;
+  background: var(--secondary-white);
+  border-radius: 8px 8px 4px 8px;
+  color: var(--text-chat-right);
+  box-shadow: 0 4px 8px var(--secondary-light);
+}
+
+.chat-bubble-short {
+  max-width: fit-content;
+  white-space: nowrap;
+}
+
+.chat-photos {
+  display: flex;
+  margin-left: auto;
+  gap: 8px;
+  max-width: fit-content;
+}
+
+.photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.chat-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px 10px 8px;
+  background: linear-gradient(to left, var(--bg-gradient-2), var(--bg-gradient-1));
+  color: var(--secondary-white);
+  max-width: 160px;
+  border-radius: 8px 8px 8px 4px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--app-radio-button);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.task {
+  font-size: 8px;
+}
+
+.cost {
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: auto;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 4px 4px 4px 18px;
+  background: var(--secondary-white);
+  border-radius: 1000px;
+}
+
+.placeholder {
+  font-size: 8px;
+  color: var(--text-placeholder);
+}
+
+.input-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-white);
+  width: 26px;
+  height: 26px;
+  margin-left: auto;
+  background: var(--app-submit-button);
+  border-radius: 50%;
+}
+
+.animation {
+  opacity: 0;
+  animation: newMessage 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.animation-1 {
+  animation-delay: .5s;
+}
+
+.animation-2 {
+  animation-delay: .7s;
+}
+
+.animation-3 {
+  animation-delay: 1.7s;
+}
+
+.animation-4 {
+  animation-delay: 1.9s;
+}
+
+.animation-5 {
+  animation-delay: 2.1s;
+}
+
+.animation-6 {
+  animation-delay: 3.1s;
+}
+
+.animation-7 {
+  animation-delay: 3.54s;
+}
+
+.animation-8 {
+  animation-delay: 3.55s;
+}
+
+@media screen and (min-width: 767px) {
+  .app {
+    margin-bottom: 0;
+  }
+}
